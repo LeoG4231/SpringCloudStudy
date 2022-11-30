@@ -9,6 +9,7 @@
         <module name="serviceRibbon" />
         <module name="serviceFeign" />
         <module name="eurekaServer" />
+        <module name="serviceZuul" />
         <module name="eurekaClient" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="eurekaServer" options="-parameters" />
       <module name="serviceFeign" options="-parameters" />
       <module name="serviceRibbon" options="-parameters" />
+      <module name="serviceZuul" options="-parameters" />
     </option>
   </component>
 </project>
