@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LeoG4231/SpringCloudStudyConfig.git
+          search-paths: respo
+          username:
+          password:
+          force-pull: true
+          default-label: main
